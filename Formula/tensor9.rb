@@ -14,7 +14,7 @@ class Tensor9 < Formula
   on_macos do
     on_arm do
       url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-latest"
-      sha256 "b97269f6ff47cd894294a9755fe2df94b7f71eb1abfa28c70b11816004faceff"
+      sha256 "73d38200ebe65835524c52791f8809df4b8045be37e76d0fca311360f8106578"
     end
     on_intel do
       url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-latest"
