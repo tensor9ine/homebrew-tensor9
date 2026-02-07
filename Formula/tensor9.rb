@@ -7,14 +7,14 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_02_06_15_13_6e12804f"
+  version "2026_02_06_23_17_690a7e35"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_02_06_15_13_6e12804f.tar.gz"
-      sha256 "6e12804ffdff014a88a4a0d0700286eb2d8375d7e8479176f9cba5647db5c2c6"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_02_06_23_17_690a7e35.tar.gz"
+      sha256 "887bdbed35ec91008f0da4ddc7bcf6b19defa55772e7434951666af85dc89195"
     end
     on_intel do
       url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-latest.tar.gz"
@@ -51,6 +51,13 @@ class Tensor9 < Formula
 
       Get started:
         tensor9 --help
+
+      Shell completions (optional):
+        # Bash
+        tensor9 completion --shell bash > $(brew --prefix)/etc/bash_completion.d/tensor9
+
+        # Zsh
+        tensor9 completion --shell zsh > $(brew --prefix)/share/zsh/site-functions/_tensor9
 
       Configuration is stored in:
         ~/.tensor9/
