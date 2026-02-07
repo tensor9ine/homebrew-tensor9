@@ -53,17 +53,7 @@ class Tensor9 < Formula
         tensor9 --help
 
       Shell completions (optional):
-        # Bash
-        tensor9 completion --shell bash > $(brew --prefix)/etc/bash_completion.d/tensor9
-
-        # Zsh (add to ~/.zshrc)
-        if type brew &>/dev/null; then
-          FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-          autoload -Uz compinit && compinit
-        fi
-
-        # Then generate the completion:
-        tensor9 completion --shell zsh > $(brew --prefix)/share/zsh/site-functions/_tensor9
+        tensor9 completion --help
 
       Configuration is stored in:
         ~/.tensor9/
