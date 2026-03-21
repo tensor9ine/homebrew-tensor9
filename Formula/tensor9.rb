@@ -17,19 +17,19 @@ class Tensor9 < Formula
       sha256 "d832544363c7d768d953426f522cc93429679ca67eb70a1a122da59dfcc5e594"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-latest.tar.gz"
-      sha256 "PENDING_BUILD"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_21_19_29_3954f470.tar.gz"
+      sha256 "3954f470f7e7a38ea436b076d146038178b80e7db36af5a282f7123947366dac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-latest.tar.gz"
-      sha256 "PENDING_BUILD"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_21_19_36_ba668ae2.tar.gz"
+      sha256 "ba668ae27d1ccee37d64887ac292253c291a8ea2300df3ae4a67c5e8945f219d"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-latest.tar.gz"
-      sha256 "PENDING_BUILD"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_21_19_33_38784db5.tar.gz"
+      sha256 "38784db568358a5040b42ac0c714e9ae06c3fb1b2235f5acb635e7c97b466a22"
     end
   end
 
