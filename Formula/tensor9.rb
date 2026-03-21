@@ -7,14 +7,14 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_02_07_12_08_d3f61d5f"
+  version "2026_03_21_18_32_d8325443"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_02_07_12_08_d3f61d5f.tar.gz"
-      sha256 "d3f61d5fd0609526efbe3456b5c5f4510f9328264622e5fd39ff2dddcc6841f3"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_21_18_32_d8325443.tar.gz"
+      sha256 "d832544363c7d768d953426f522cc93429679ca67eb70a1a122da59dfcc5e594"
     end
     on_intel do
       url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-latest.tar.gz"
