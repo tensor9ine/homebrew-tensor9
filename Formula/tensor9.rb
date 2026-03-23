@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_03_21_23_34_d3743fd6"
+  version "2026_03_23_19_34_faf8aa50"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_21_23_34_d3743fd6.tar.gz"
-      sha256 "d3743fd66864838d4c02ca0cb7b3d1313163b87f49fba18258ef44037bcf8a7a"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_23_19_34_faf8aa50.tar.gz"
+      sha256 "faf8aa5078fdc12346e02e835657c5be6cd426a84c28f80148d21e09e276d361"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_21_19_29_3954f470.tar.gz"
-      sha256 "3954f470f7e7a38ea436b076d146038178b80e7db36af5a282f7123947366dac"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_23_20_25_a2e84160.tar.gz"
+      sha256 "a2e841607840741b30e8f5d4871a6fa89d753fbd2943b66b647d1e10c378932b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_21_19_36_ba668ae2.tar.gz"
-      sha256 "ba668ae27d1ccee37d64887ac292253c291a8ea2300df3ae4a67c5e8945f219d"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_23_20_26_20b3866e.tar.gz"
+      sha256 "20b3866ef5c6943c9074f1afe0049254e9e6593acfee04447767806dd8844318"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_21_19_33_38784db5.tar.gz"
-      sha256 "38784db568358a5040b42ac0c714e9ae06c3fb1b2235f5acb635e7c97b466a22"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_23_20_26_e028fedd.tar.gz"
+      sha256 "e028feddc8cdabc05bd5499087521e7b78ac5f5b36ec5e03fbcfad336bbd9380"
     end
   end
 
