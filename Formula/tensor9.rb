@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_03_24_17_16_767a0527"
+  version "2026_03_27_01_54_8658ea68"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_24_17_16_767a0527.tar.gz"
-      sha256 "b553bcf6312c9bb68cd8937b98a3a0ddb4c05d4740ba61d6881ab7fdaf0e3001"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_27_01_54_8658ea68.tar.gz"
+      sha256 "8658ea6858de267c1fa4ffecb8060ec187186f6afb8a9c37eb2bd51ca60f4105"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_24_16_23_79dddf1d.tar.gz"
-      sha256 "79dddf1df4ada03c4d1d2245ae6a34699c4591cfcd918d98d97b5bd132acfabe"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_27_02_03_a98825c4.tar.gz"
+      sha256 "a98825c451bdee97c61acc01cdbbf8abab7ab39fd80b11744f53ddfeeccb8dcb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_24_16_23_e8286294.tar.gz"
-      sha256 "e828629463dea81cd063ddc88f7a3a2f12979d44ccbb06abeb938de0eaf99550"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_27_02_19_ca588446.tar.gz"
+      sha256 "ca5884468b010a4cd3c0caf8c7eafa5b6ca5bdebed5461ebc4dfd9760f8280e0"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_24_16_24_edf5739c.tar.gz"
-      sha256 "edf5739cbda279c54b08bc5d736cb79a14c30f5c0c25aaff992e9428dd7073c6"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_27_02_27_6d593645.tar.gz"
+      sha256 "6d5936450325cd4315bbb33b2cbb199cfd819fbff5edc8fb9248328ecca0a2d3"
     end
   end
 
