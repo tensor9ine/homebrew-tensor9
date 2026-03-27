@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_03_27_01_54_8658ea68"
+  version "2026_03_27_22_49_d6fe6399"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_27_01_54_8658ea68.tar.gz"
-      sha256 "8658ea6858de267c1fa4ffecb8060ec187186f6afb8a9c37eb2bd51ca60f4105"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_27_22_49_d6fe6399.tar.gz"
+      sha256 "d6fe639919cfb8f584fbcde7b7f4d059b7eb2e146cd94429364d9a51b6e2ffc7"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_27_02_03_a98825c4.tar.gz"
-      sha256 "a98825c451bdee97c61acc01cdbbf8abab7ab39fd80b11744f53ddfeeccb8dcb"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_27_22_51_023fd061.tar.gz"
+      sha256 "023fd0614afc5733503b8d782418079a020699b92a6d5ac4b5abf83345b61d7f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_27_02_19_ca588446.tar.gz"
-      sha256 "ca5884468b010a4cd3c0caf8c7eafa5b6ca5bdebed5461ebc4dfd9760f8280e0"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_27_22_52_999492df.tar.gz"
+      sha256 "999492dfeccc4ded5a1e770e01229ce85b3d78599425eb85691abd92d9f9e2d0"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_27_02_27_6d593645.tar.gz"
-      sha256 "6d5936450325cd4315bbb33b2cbb199cfd819fbff5edc8fb9248328ecca0a2d3"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_27_22_53_be18a5da.tar.gz"
+      sha256 "be18a5da7a91c6df8ddbe90ea1a929398c0245a32ca5dbf089dfbdd80bfd4742"
     end
   end
 
