@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_03_27_22_49_d6fe6399"
+  version "2026_03_28_04_00_1dd238f7"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_27_22_49_d6fe6399.tar.gz"
-      sha256 "d6fe639919cfb8f584fbcde7b7f4d059b7eb2e146cd94429364d9a51b6e2ffc7"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_03_28_04_00_1dd238f7.tar.gz"
+      sha256 "1dd238f774c5aaa7c157142a6bfb6da94eabdaf5e30095a09228787427fbe17e"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_27_22_51_023fd061.tar.gz"
-      sha256 "023fd0614afc5733503b8d782418079a020699b92a6d5ac4b5abf83345b61d7f"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_03_28_04_02_e2be0762.tar.gz"
+      sha256 "e2be07623f46b8367917312dda523eb73d33369043985fb0ae95bcc61d5c05ea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_27_22_52_999492df.tar.gz"
-      sha256 "999492dfeccc4ded5a1e770e01229ce85b3d78599425eb85691abd92d9f9e2d0"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_03_28_04_04_f0d49c9b.tar.gz"
+      sha256 "f0d49c9b95c0f3cd21c738b8f79125773e2b84f05f6d7fe31933fada29d666e9"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_27_22_53_be18a5da.tar.gz"
-      sha256 "be18a5da7a91c6df8ddbe90ea1a929398c0245a32ca5dbf089dfbdd80bfd4742"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_03_28_04_06_ef67c26b.tar.gz"
+      sha256 "ef67c26ba926112985ba8c0415db2d8f7f3eb9e7bbdecfce37e9c30267abfac2"
     end
   end
 
