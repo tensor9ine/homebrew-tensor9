@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_01_20_41_61f2ee7e"
+  version "2026_04_01_21_44_5407dd1d"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_01_20_41_61f2ee7e.tar.gz"
-      sha256 "61f2ee7efc44b5c9cec6082c145c2bcec36cb9ed884394652441c1caedf3ea5d"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_01_21_44_5407dd1d.tar.gz"
+      sha256 "5407dd1d3ccccc713f837702d5077875de5d1164825bfe9a36037bada4cbd69a"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_01_20_43_1fd9b850.tar.gz"
-      sha256 "1fd9b85012a266f3a340e7afe798b0c02a7819026e8ab2c23795d864442c9742"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_01_21_46_d17128fa.tar.gz"
+      sha256 "d17128fa3455269c3ab400b952179f7c488ffa116e92f3bfc9b20fe074501853"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_01_20_44_f95bdd3e.tar.gz"
-      sha256 "f95bdd3ebfec08cb8fa126224dc001cb70af745a499e0c07b6b643a36b3d6a76"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_01_21_48_3cb80d33.tar.gz"
+      sha256 "3cb80d3332e15eade93acf69ca94cc4a866d46a40304765157ae9e15a095c413"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_01_20_46_4d4a530f.tar.gz"
-      sha256 "4d4a530f627e7dd340df68c1558ecaf95d6fce1f181a5e91280f98ab7f86f24a"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_01_21_49_d42bc559.tar.gz"
+      sha256 "d42bc559a3a6159210902964e077fb704b9d89be085724969485c9a46b917149"
     end
   end
 
