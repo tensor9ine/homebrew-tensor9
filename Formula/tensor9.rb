@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_06_10_18_ff16cb6e"
+  version "2026_04_06_17_41_fb2446da"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_06_10_18_ff16cb6e.tar.gz"
-      sha256 "ff16cb6ec2d621e67594004bcdb14b9e0eb69ac339127f5ff12c6e741e9127fb"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_06_17_41_fb2446da.tar.gz"
+      sha256 "fb2446da0109c922d359ca64aa512774e806967f3b509666bdcb585e9274ae08"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_06_10_19_9e4c741d.tar.gz"
-      sha256 "9e4c741d353c3fc5aecaee8c3f2f10e9099e99eb68e1b1066bfea8fc064333c9"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_06_17_42_cdce6a20.tar.gz"
+      sha256 "cdce6a201bf0223aea7e2ac4bb55c4eaebfec4667eead1988cdc76be8b598b45"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_06_10_19_4daf5da0.tar.gz"
-      sha256 "4daf5da0272033916c69af73386c32eaba4f0afb07ee93983d9d7f93f0c614ae"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_06_17_43_20beea23.tar.gz"
+      sha256 "20beea238b5721bffad6eba57d3849b0b3669c54964126df2183ec73dd52eb48"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_06_10_20_a53afc85.tar.gz"
-      sha256 "a53afc85bced5ef791a6cbb63a756aa838c5e1b3d00c20db5c13a92974ef425e"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_06_17_43_cd5dbb75.tar.gz"
+      sha256 "cd5dbb75e0c153f538fa9d96b80e73825acc6c4392a412f8e7ece55ef10de95d"
     end
   end
 
