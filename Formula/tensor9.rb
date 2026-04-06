@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_03_18_32_1f4ea545"
+  version "2026_04_06_02_44_14d58bca"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_03_18_32_1f4ea545.tar.gz"
-      sha256 "1f4ea545b3ca404f19c9d66bd110e24088fa6b40c499e3a6a71337445ee9f4a5"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_06_02_44_14d58bca.tar.gz"
+      sha256 "14d58bca859f5d895097a647a841ebcae2fa5625893a4677208a7c468e2d3d8c"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_03_18_34_ab0cc90e.tar.gz"
-      sha256 "ab0cc90e4846216427cc5656df5251f42e61e05edec55cd5242bf1343e601266"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_06_02_45_f72583e4.tar.gz"
+      sha256 "f72583e4edc16b917ad1cbfdf1186d19785535319fe8c62847640bcb889e8b36"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_03_18_35_2cf7ecd7.tar.gz"
-      sha256 "2cf7ecd767c7fd95f1faa41ac7fcd6498ae74ce8a9b666e527aa740752c3bb08"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_06_02_45_59b44722.tar.gz"
+      sha256 "59b4472220a1d7d9d8f68c4a9d26cf3f61c44b37d5a787b655757b2a048bd26e"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_03_18_36_8ee441bf.tar.gz"
-      sha256 "8ee441bfe8b3f7f23269d509a8fc55968fc5a550ef03b1d454567e75f9456102"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_06_02_46_a55e2ad3.tar.gz"
+      sha256 "a55e2ad33d9bcfedbf99a15c1f8e6fc2e662f152cd0f8e9a6c372dfc86271a8f"
     end
   end
 
