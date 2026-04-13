@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_11_03_47_9299d5ba"
+  version "2026_04_13_03_26_88297ca5"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_11_03_47_9299d5ba.tar.gz"
-      sha256 "9299d5baa32e2aabfc60b0657065d7ef02ff7508bde0c79d7476acc5b4b1c2a3"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_13_03_26_88297ca5.tar.gz"
+      sha256 "88297ca58ac2c7b9517cb28785a7c6e47f447092cfb0d08a61b226c2af167bda"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_11_03_58_2cad3b1e.tar.gz"
-      sha256 "2cad3b1e6072ed83054499f71d54a06208e7b7c1b4edce0aa75d3e5fcdefe0c5"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_13_03_28_513eb4df.tar.gz"
+      sha256 "513eb4dfd8ccf3a3d76c40ee8f57e59c3da378d3c8d70c7aa8fda2d2c8dca8b2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_11_04_03_18977be5.tar.gz"
-      sha256 "18977be575c408da331ee0c80a231f5b33765728fdddc54b94324d3a1897f5c1"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_13_03_28_972a18ed.tar.gz"
+      sha256 "972a18ed86d1a0c93aee78addd5f5ae2245235cee1b084daaf3687c4279550dd"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_11_04_09_26b1efda.tar.gz"
-      sha256 "26b1efda585aeacf171eabd7ab8107a28516c8648971c76cefd7aef830d9e11a"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_13_03_29_45d436a6.tar.gz"
+      sha256 "45d436a672df24f1899d92b7faa5cad117a86d148fc1d0946f362f8ec63e4ded"
     end
   end
 
