@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_20_00_51_8d5e0155"
+  version "2026_04_20_20_20_c6d20da9"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_20_00_51_8d5e0155.tar.gz"
-      sha256 "8d5e0155b8ed8f1ffb55b9db99b52250ed8a6f1c3237a9eeefb126cc22e8934e"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_20_20_20_c6d20da9.tar.gz"
+      sha256 "c6d20da9fbcd22950378f944f136c26c0b7c105088405a0fed53626bf70ae90a"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_20_00_53_f7dfae94.tar.gz"
-      sha256 "f7dfae94af7144c18201028ae796138ca35752e9b5a792f575cfb5fa7319e951"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_20_20_23_57655eda.tar.gz"
+      sha256 "57655edaf1f0c652f7743a04a71ab8eab3602b924f271bc7eb07d092c5e6ef40"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_20_00_55_5501a079.tar.gz"
-      sha256 "5501a07975bf2b4e10505d4bf1b599b3c1842dbbdd9d58a8f7299a1173b7495d"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_20_20_25_9871ac2d.tar.gz"
+      sha256 "9871ac2d01ca0ed7cedd400bbab0cde4061fe4b9402b9d8bcc045c6061318858"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_20_00_57_69f1e5f5.tar.gz"
-      sha256 "69f1e5f51aedb0fd531691f896a5a2916d8b57ba1fdaf506dc12e54d53d5a615"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_20_20_28_98453ac8.tar.gz"
+      sha256 "98453ac8bd34bdcd6eaf660827e61efbffdc5c865e477b0d48b9421a469f6932"
     end
   end
 
