@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_04_16_21_34_345bb3e3"
+  version "2026_04_20_00_51_8d5e0155"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_16_21_34_345bb3e3.tar.gz"
-      sha256 "345bb3e391da9470fc7f194c51e912a0692a6f9d041d1c5c8f454b5af05fa712"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_04_20_00_51_8d5e0155.tar.gz"
+      sha256 "8d5e0155b8ed8f1ffb55b9db99b52250ed8a6f1c3237a9eeefb126cc22e8934e"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_16_21_34_6fdc8628.tar.gz"
-      sha256 "6fdc8628afb979c3ebf8b32d78eb2a25b5541409873b08cbb701ee265ed4a3f0"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_04_20_00_53_f7dfae94.tar.gz"
+      sha256 "f7dfae94af7144c18201028ae796138ca35752e9b5a792f575cfb5fa7319e951"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_16_21_35_c645f8af.tar.gz"
-      sha256 "c645f8af411627b9b8e296ad1976bc82fc0352efdb872ab2b95c806de03dab7e"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_04_20_00_55_5501a079.tar.gz"
+      sha256 "5501a07975bf2b4e10505d4bf1b599b3c1842dbbdd9d58a8f7299a1173b7495d"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_16_21_35_25e83c0c.tar.gz"
-      sha256 "25e83c0cda54730f05a93d05702b0fbfd479b649d1e241bb233c6b3dca7b94c9"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_04_20_00_57_69f1e5f5.tar.gz"
+      sha256 "69f1e5f51aedb0fd531691f896a5a2916d8b57ba1fdaf506dc12e54d53d5a615"
     end
   end
 
