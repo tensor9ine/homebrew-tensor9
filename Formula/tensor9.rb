@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_05_12_04_25_b78c7e06"
+  version "2026_05_16_19_21_f7649db5"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_05_12_04_25_b78c7e06.tar.gz"
-      sha256 "b78c7e06ff80a2a1ee5152ea4f8a6b05f4971167dfbc287b1fc5a935ea4edc06"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_05_16_19_21_f7649db5.tar.gz"
+      sha256 "f7649db575eaad4d260964ebb7bef5b8df0eee066876b9e65c3604857aa33d4a"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_05_12_04_26_9cedca9e.tar.gz"
-      sha256 "9cedca9ed8f6e1009225ca2f6e16503188c2d92727be8866a51bd7f7f4a305b6"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_05_16_19_22_aebf74ee.tar.gz"
+      sha256 "aebf74eeebff0e5c87a24fc1f2d45f52068250bfd50c84be5b5d5491fc7f2d21"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_05_12_04_26_03b776bd.tar.gz"
-      sha256 "03b776bdd72c5a6ebf163795c2c161ae7f42f0972bf0ff5c317ba87ed5922c7e"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_05_16_19_22_17414090.tar.gz"
+      sha256 "17414090676e576ffd93250ae1c68e144a2e4b47756351e0fa376aae68e8b35d"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_05_12_04_27_2abcaa07.tar.gz"
-      sha256 "2abcaa079b0735ea549b3839ad2dbaef6312bd6ba5e233e97a7d6fc4e623b5ff"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_05_16_19_23_f3b0b6e2.tar.gz"
+      sha256 "f3b0b6e2e93ab059d10865d0f8d85dbd93ab88ea5bbef2f8c8c3a3bd201f2af1"
     end
   end
 
