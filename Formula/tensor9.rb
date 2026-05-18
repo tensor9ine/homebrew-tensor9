@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_05_16_19_21_f7649db5"
+  version "2026_05_18_15_20_97d7dd59"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_05_16_19_21_f7649db5.tar.gz"
-      sha256 "f7649db575eaad4d260964ebb7bef5b8df0eee066876b9e65c3604857aa33d4a"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_05_18_15_20_97d7dd59.tar.gz"
+      sha256 "97d7dd599805c575b4fc694b24a7b59b9d3fa705174289eb9da4c94aaf4928e8"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_05_16_19_22_aebf74ee.tar.gz"
-      sha256 "aebf74eeebff0e5c87a24fc1f2d45f52068250bfd50c84be5b5d5491fc7f2d21"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_05_18_15_21_1827f987.tar.gz"
+      sha256 "a67d2821e95201c2218efefac3e979443d33c805dbb7a28b7aeab883b0a7ffae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_05_16_19_22_17414090.tar.gz"
-      sha256 "17414090676e576ffd93250ae1c68e144a2e4b47756351e0fa376aae68e8b35d"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_05_18_15_21_6771ce2b.tar.gz"
+      sha256 "6771ce2bd165d369e2516e509aa68538a9b818790396b3447ab7174ae5516a89"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_05_16_19_23_f3b0b6e2.tar.gz"
-      sha256 "f3b0b6e2e93ab059d10865d0f8d85dbd93ab88ea5bbef2f8c8c3a3bd201f2af1"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_05_18_15_22_5060a051.tar.gz"
+      sha256 "5060a051e9eb76c53f25f3a9a04880511c61492f0721f88f2bc87b2cc7ce2467"
     end
   end
 
