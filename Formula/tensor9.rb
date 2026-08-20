@@ -7,29 +7,29 @@
 class Tensor9 < Formula
   desc "Deploy anywhere with Tensor9 - multi-cloud deployment platform"
   homepage "https://tensor9.com"
-  version "2026_08_13_17_57_acf69f7b"
+  version "2026_08_20_01_55_5ff0f2f3"
   license :cannot_represent
 
   # Multi-architecture support - bundled JRE tar.gz archives
   on_macos do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_08_13_17_57_acf69f7b.tar.gz"
-      sha256 "acf69f7be97db8ccab723b335c152302e9c5f8a91691f90405c8fc5e0fd3cce3"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_arm64-2026_08_20_01_55_5ff0f2f3.tar.gz"
+      sha256 "5ff0f2f3de60ed1c97a1d719a0c2399b516bedaf1a743474a169bc5b96d8f20a"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_08_13_17_57_c93efa2f.tar.gz"
-      sha256 "c93efa2f91fe2e52b211f3bdef978798853bfd7a66463b9cf53814450d4fe634"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_mac_amd64-2026_08_20_01_55_7d5106c1.tar.gz"
+      sha256 "7d5106c1ed6d0b71702e603719779237b1ee45328317f86328ea63419a3ee5a0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_08_13_17_58_a63aaa2b.tar.gz"
-      sha256 "a63aaa2b92d056945976f2ba0e0bc97bd2b5d66a98042933b05a99fb329397c3"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_arm64-2026_08_20_01_56_c2129c19.tar.gz"
+      sha256 "c2129c19907e7da8a290e4608683d1cfdada7cc54cdcfd1edd1d0e85bdfe17a5"
     end
     on_intel do
-      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_08_13_17_59_8d2dd8f5.tar.gz"
-      sha256 "8d2dd8f5dac73635c6a0fbc25339cb9b919ad2eda8837caf2f4f7736341f8d06"
+      url "https://t9-artifacts-prod-1.s3.us-west-2.amazonaws.com/tensor9_linux_amd64-2026_08_20_01_57_428d9a65.tar.gz"
+      sha256 "428d9a652946a1e7b700b34078e991519c75735019e4ebf63162c4d3cd5887ba"
     end
   end
 
