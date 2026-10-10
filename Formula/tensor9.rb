@@ -1,7 +1,8 @@
 # Tensor9 CLI - Deploy anywhere with Tensor9
 # https://tensor9.com
 #
-# Install: brew tap tensor9ine/tensor9 && brew install tensor9
+# Install: brew tap tensor9ine/tensor9 && brew trust tensor9ine/tensor9 && brew install tensor9
+#          (Homebrew 7+ loads formulae from third-party taps only after `brew trust`)
 # Update:  brew upgrade tensor9
 
 class Tensor9 < Formula
